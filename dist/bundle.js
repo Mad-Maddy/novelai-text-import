@@ -5,12 +5,12 @@
 // @version     1.0.0
 // @homepage    https://github.com/Mad-Maddy/novelai-text-import
 // @author      MadMaddy
-// @resource    css https://example.com/dist/bundle.css
+// @resource    css https://github.com/Mad-Maddy/novelai-text-import/tree/main/dist/bundle.css
 // @match       https://novelai.net/*
 // @connect     novelai.net
 // @run-at      document-idle
-// @downloadURL https://example.com/dist/bundle.js
-// @updateURL   https://example.com/dist/bundle.js
+// @downloadURL https://github.com/Mad-Maddy/novelai-text-import/tree/main/dist/bundle.js
+// @updateURL   https://github.com/Mad-Maddy/novelai-text-import/tree/main/dist/bundle.js
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
