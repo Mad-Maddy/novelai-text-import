@@ -24,7 +24,6 @@ let meta = {
   },
   match: ['https://novelai.net/*'],
   grant: ['GM_addStyle', 'GM_getResourceText'],
-  connect: ['novelai.net'],
   'run-at': 'document-idle',
 }
 
