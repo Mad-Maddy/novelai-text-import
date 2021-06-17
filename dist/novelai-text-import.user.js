@@ -7,7 +7,6 @@
 // @author      MadMaddy
 // @resource    css https://raw.githubusercontent.com/Mad-Maddy/novelai-text-import/main/dist/bundle.css
 // @match       https://novelai.net/*
-// @connect     novelai.net
 // @run-at      document-idle
 // @downloadURL https://raw.githubusercontent.com/Mad-Maddy/novelai-text-import/main/dist/novelai-text-import.user.js
 // @updateURL   https://raw.githubusercontent.com/Mad-Maddy/novelai-text-import/main/dist/novelai-text-import.user.js
