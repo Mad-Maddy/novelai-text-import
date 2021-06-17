@@ -2,7 +2,7 @@ const path = require('path')
 const { pathToFileURL } = require('url')
 const pkg = require('./package.json')
 
-const distURLBase = `https://github.com/Mad-Maddy/novelai-text-import/tree/main/dist`
+const distURLBase = `https://raw.githubusercontent.com/Mad-Maddy/novelai-text-import/main/dist`
 const packageName = 'NovelAI Text Importer'
 
 const production = !process.env.ROLLUP_WATCH
