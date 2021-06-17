@@ -9,6 +9,7 @@ import sveltePreprocess from 'svelte-preprocess'
 import MagicString from 'magic-string'
 
 const production = !process.env.ROLLUP_WATCH
+const filename = 'novelai-text-import.user.js'
 
 export default {
   input: 'src/main.ts',
@@ -16,7 +17,7 @@ export default {
     sourcemap: false,
     format: 'iife',
     name: 'app',
-    file: production ? 'dist/bundle.js' : 'build/bundle.js',
+    file: production ? `dist/${filename}` : `build/${filename}`,
   },
   plugins: [
     svelte({

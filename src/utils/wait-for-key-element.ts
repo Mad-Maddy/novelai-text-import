@@ -63,7 +63,6 @@ function waitForKeyElements(
   //--- Now set or clear the timer as appropriate.
   if (btargetsFound && waitOnce && timeControl) {
     //--- The only condition where we need to clear the timer.
-    console.log('trigger once')
     clearInterval(timeControl)
     delete controlObj[controlKey]
   } else {

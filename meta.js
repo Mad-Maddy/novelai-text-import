@@ -8,6 +8,8 @@ const packageName = 'NovelAI Text Importer'
 const production = !process.env.ROLLUP_WATCH
 const baseUrl = !production ? path.join(__dirname, 'build') : distURLBase
 
+const filename = 'novelai-text-import.user.js'
+
 let meta = {
   name: production ? packageName : packageName + ' -> dev',
   version: pkg.version,
@@ -27,12 +29,12 @@ let meta = {
 }
 
 if (!production) {
-  meta.require = [pathToFileURL(path.join(baseUrl, 'bundle.js'))]
+  meta.require = [pathToFileURL(path.join(baseUrl, filename))]
 }
 
 if (production) {
-  meta.downloadURL = `${baseUrl}/bundle.js`
-  meta.updateURL = `${baseUrl}/bundle.js`
+  meta.downloadURL = `${baseUrl}/${filename}`
+  meta.updateURL = `${baseUrl}/${filename}`
 }
 
 module.exports = meta
