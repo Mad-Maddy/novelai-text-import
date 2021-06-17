@@ -2,8 +2,6 @@
 </style>
 
 <script lang="ts">
-  import { text } from 'svelte/internal'
-
   import ImportButton from './components/ImportButton.svelte'
   import TextBox from './components/TextBox.svelte'
   import { textToHtml } from './utils/text-to-html'
